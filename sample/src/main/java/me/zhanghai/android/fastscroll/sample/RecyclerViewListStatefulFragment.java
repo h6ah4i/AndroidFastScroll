@@ -38,7 +38,7 @@ public class RecyclerViewListStatefulFragment extends RecyclerViewFragment {
                 // tinting until Lollipop MR1 (API 22). So if you need to support API 21, you'll
                 // need to work around it yourself.
                 .setThumbDrawable(AppCompatResources.getDrawable(recyclerView.getContext(),
-                        R.drawable.afs_thumb_stateful))
+                        me.zhanghai.android.fastscroll.R.drawable.afs_thumb_stateful))
                 .build();
     }
 }

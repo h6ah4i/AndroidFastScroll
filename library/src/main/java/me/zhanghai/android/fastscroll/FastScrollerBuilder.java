@@ -117,9 +117,9 @@ public class FastScrollerBuilder {
     public FastScrollerBuilder useDefaultStyle() {
         Context context = mView.getContext();
         mTrackDrawable = Utils.getGradientDrawableWithTintAttr(R.drawable.afs_track,
-                R.attr.colorControlNormal, context);
+                androidx.appcompat.R.attr.colorControlNormal, context);
         mThumbDrawable = Utils.getGradientDrawableWithTintAttr(R.drawable.afs_thumb,
-                R.attr.colorControlActivated, context);
+                androidx.appcompat.R.attr.colorControlActivated, context);
         mPopupStyle = PopupStyles.DEFAULT;
         return this;
     }
@@ -128,9 +128,9 @@ public class FastScrollerBuilder {
     public FastScrollerBuilder useMd2Style() {
         Context context = mView.getContext();
         mTrackDrawable = Utils.getGradientDrawableWithTintAttr(R.drawable.afs_md2_track,
-                R.attr.colorControlNormal, context);
+                androidx.appcompat.R.attr.colorControlNormal, context);
         mThumbDrawable = Utils.getGradientDrawableWithTintAttr(R.drawable.afs_md2_thumb,
-                R.attr.colorControlActivated, context);
+                androidx.appcompat.R.attr.colorControlActivated, context);
         mPopupStyle = PopupStyles.MD2;
         return this;
     }

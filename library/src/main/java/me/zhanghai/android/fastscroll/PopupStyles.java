@@ -42,7 +42,7 @@ public class PopupStyles {
         popupView.setLayoutParams(layoutParams);
         Context context = popupView.getContext();
         popupView.setBackground(new AutoMirrorDrawable(Utils.getGradientDrawableWithTintAttr(
-                R.drawable.afs_popup_background, R.attr.colorControlActivated, context)));
+                R.drawable.afs_popup_background, androidx.appcompat.R.attr.colorControlActivated, context)));
         popupView.setEllipsize(TextUtils.TruncateAt.MIDDLE);
         popupView.setGravity(Gravity.CENTER);
         popupView.setIncludeFontPadding(false);
