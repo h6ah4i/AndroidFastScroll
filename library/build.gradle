@@ -1,4 +1,6 @@
-apply plugin: 'com.android.library'
+plugins {
+    id 'com.android.library'
+}
 
 android {
     compileSdkVersion 30
@@ -6,8 +8,6 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode Integer.parseInt(VERSION_CODE)
-        versionName VERSION_NAME
         consumerProguardFiles 'proguard-rules.pro'
     }
     compileOptions {
@@ -26,4 +26,4 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
 }
 
-apply plugin: 'com.vanniktech.maven.publish'
+//apply plugin: 'com.vanniktech.maven.publish'
